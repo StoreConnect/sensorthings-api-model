@@ -1,0 +1,56 @@
+{
+  "@iot.id": 1,
+  "@iot.selfLink": "http://example.org/v1.0/MultiDatastreams(1)",
+  "Thing@iot.navigationLink": "MultiDatastreams(1)/Thing",
+  "Sensor@iot.navigationLink": "MultiDatastreams(1)/Sensor",
+  "ObservedProperty@iot.navigationLink": "MultiDatastreams(1)/ObservedProperties",
+  "Observations@iot.navigationLink": "MultiDatastreams(1)/Observations",
+  "name": "temperature, RH",
+  "description": "This is a MultiDatastream from a simple weather station measuring air temperature and relative humidity",
+  "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_ComplexObservation",
+  "multiObservationDataTypes": [
+    "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+    "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement"
+  ],
+  "unitOfMeasurements": [
+    {
+      "name": "degree Celsius",
+      "symbol": "°C",
+      "definition": "http://unitsofmeasure.org/ucum.html#para-30"
+    },
+    {
+      "name": "percent",
+      "symbol": "%",
+      "definition": "http://unitsofmeasure.org/ucum.html#para-29"
+    }
+  ],
+  "observedArea": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100,
+          0
+        ],
+        [
+          101,
+          0
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          100,
+          1
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    ]
+  },
+  "phenomenonTime": "2014-03-01T13:00:00Z/2015-05-11T15:30:00Z",
+  "resultTime": "2014-03-01T13:00:00Z/2015-05-11T15:30:00Z"
+}

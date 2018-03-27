@@ -1,0 +1,18 @@
+{
+  "@iot.id": 1,
+  "@iot.selfLink": "http://example.org/v1.0/FeatureOfInterest(1)",
+  "Observations@iot.navigationLink": "FeatureOfInterest(1)/Observations",
+  "name": "Weather Station YYC.",
+  "description": "This is a weather station located at the Calgary Airport.",
+  "encodingType": "application/vnd.geo+json",
+  "feature": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -114.06,
+        51.05
+      ]
+    }
+  }
+}

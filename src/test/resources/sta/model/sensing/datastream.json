@@ -1,0 +1,45 @@
+{
+  "@iot.id": 1,
+  "@iot.selfLink": "http://example.org/v1.0/Datastreams(1)",
+  "Thing@iot.navigationLink": "Datastreams(1)/Thing",
+  "Sensor@iot.navigationLink": "Datastreams(1)/Sensor",
+  "ObservedProperty@iot.navigationLink": "Datastreams(1)/ObservedProperty",
+  "Observations@iot.navigationLink": "Datastreams(1)/Observations",
+  "name": "oven temperature",
+  "description": "This is a datastream measuring the air temperature in an oven.",
+  "unitOfMeasurement": {
+    "name": "degree Celsius",
+    "symbol": "°C",
+    "definition": "http://unitsofmeasure.org/ucum.html#para-30"
+  },
+  "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+  "observedArea": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100,
+          0
+        ],
+        [
+          101,
+          0
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          100,
+          1
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    ]
+  },
+  "phenomenonTime": "2014-03-01T13:00:00Z/2015-05-11T15:30:00Z",
+  "resultTime": "2014-03-01T13:00:00Z/2015-05-11T15:30:00Z"
+}

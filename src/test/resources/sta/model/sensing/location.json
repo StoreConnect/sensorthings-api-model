@@ -1,0 +1,19 @@
+{
+  "@iot.id": 1,
+  "@iot.selfLink": "http://example.org/v1.0/Locations(1)",
+  "Things@iot.navigationLink": "Locations(1)/Things",
+  "HistoricalLocations@iot.navigationLink": "Locations(1)/HistoricalLocations",
+  "encodingType": "application/vnd.geo+json",
+  "name": "CCIT",
+  "description": "Calgary Center for Innovative Technologies",
+  "location": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -114.06,
+        51.05
+      ]
+    }
+  }
+}

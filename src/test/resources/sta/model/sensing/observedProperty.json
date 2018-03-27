@@ -1,0 +1,8 @@
+{
+  "@iot.id": 1,
+  "@iot.selfLink": "http://example.org/v1.0/ObservedProperties(1)",
+  "Datastreams@iot.navigationLink": "ObservedProperties(1)/Datastreams",
+  "description": "The dewpoint temperature is the temperature to which the air must be cooled, at constant pressure, for dew to form. As the grass and other objects near the ground cool to the dewpoint, some of the water vapor in the atmosphere condenses into liquid water on the objects.",
+  "name": "DewPoint Temperature",
+  "definition": "http://dbpedia.org/page/Dew_point"
+}
